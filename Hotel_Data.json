@@ -1,0 +1,206 @@
+{
+    "applicationConfig": {
+        "hotelName": "Grand Horizon Hotel",
+        "currency": "INR",
+        "enableLogging": true,
+        "dateFormat": "DD-MM-YYYY"
+    },
+    "securityConfig": {
+        "roles": {
+            "admin": {
+                "Password": "Admin@123",
+                "permissions": [
+                    "view_rooms",
+                    "add_room",
+                    "update_room",
+                    "delete_room",
+                    "view_guests",
+                    "view_staff",
+                    "add_staff",
+                    "view_bookings",
+                    "create_booking",
+                    "update_booking",
+                    "cancel_booking",
+                    "checkout_guest",
+                    "view_visited_guests",
+                    "view_logs"
+                ]
+            },
+            "staff": {
+                "permissions": [
+                    "create_booking",
+                    "update_booking",
+                    "cancel_booking",
+                    "view_rooms",
+                    "view_guests",
+                    "view_bookings"
+                ]
+            }
+        }
+    },
+    "validationRules": {
+        "guestName": "^[A-Za-z ]{3,50}$",
+        "email": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+        "phone": "^[6-9][0-9]{9}$",
+        "roomNumber": "^[0-9]{3}$",
+        "guestId": "^G\\d{3}$",
+        "staffId": "^S\\d{3}$",
+        "bookingId": "^B\\d{3}$",
+        "date": "^\\d{2}-\\d{2}-\\d{4}$"
+    },
+    "rooms": [
+        {
+            "roomNumber": "101",
+            "type": "Single",
+            "pricePerNight": 2500,
+            "status": "available"
+        },
+        {
+            "roomNumber": "201",
+            "type": "Double",
+            "pricePerNight": 1546,
+            "status": "available"
+        },
+        {
+            "roomNumber": "301",
+            "type": "Deluxe",
+            "pricePerNight": 4500,
+            "status": "occupied"
+        },
+        {
+            "roomNumber": "401",
+            "type": "Suite",
+            "pricePerNight": 6000,
+            "status": "available"
+        },
+        {
+            "roomNumber": "501",
+            "type": "maxx",
+            "pricePerNight": 9854,
+            "status": "available"
+        }
+    ],
+    "staffs": [
+        {
+            "staffId": "S001",
+            "Password": "Amit@123",
+            "name": "Amit Kumar",
+            "email": "amit.kumar@gmail.com",
+            "phone": "9876543210",
+            "role": "staff"
+        },
+        {
+            "staffId": "S002",
+            "Password": "Neha@123",
+            "name": "Neha Singh",
+            "email": "neha.singh@gmail.com",
+            "phone": "9876543211",
+            "role": "staff"
+        },
+        {
+            "staffId": "S003",
+            "Password": "meow",
+            "name": "Ammu",
+            "email": "ammu@gmail.com",
+            "phone": "6958745145",
+            "role": "staff"
+        },
+        {
+            "staffId": "S005",
+            "Password": "Mank@321",
+            "name": "Manku",
+            "email": "Chal@23gmail.com",
+            "phone": "8574965855",
+            "role": "staff"
+        }
+    ],
+    "guests": [
+        {
+            "guestId": "G003",
+            "name": "amana",
+            "email": "chal@gmail.com",
+            "phone": "8574857484",
+            "role": "guest"
+        }
+    ],
+    "visited_guests": [
+        {
+            "guestId": "G001",
+            "name": "Rahul Sharma",
+            "email": "rahul.sharma@gmail.com",
+            "phone": "9876543212",
+            "role": "guest"
+        },
+        {
+            "guestId": "G002",
+            "name": "Anita Verma",
+            "email": "anita.verma@gmail.com",
+            "phone": "9123456789",
+            "role": "guest"
+        },
+        {
+            "guestId": "G004",
+            "name": "Maka",
+            "email": "DHak@gmail.com",
+            "phone": "8574965847",
+            "role": "guest"
+        },
+        {
+            "guestId": "G005",
+            "name": "Hiyyy",
+            "email": "Meu3@gmoal.com",
+            "phone": "8475848574",
+            "role": "guest"
+        }
+    ],
+    "bookings": [
+        {
+            "bookingId": "B001",
+            "guestId": "G001",
+            "guestName": "Rahul Sharma",
+            "guestEmail": "rahul.sharma@gmail.com",
+            "guestPhone": "9876543212",
+            "roomNumber": "301",
+            "checkInDate": "10-01-2026",
+            "checkOutDate": "12-12-2021",
+            "totalAmount": 9000,
+            "status": "checked-out"
+        },
+        {
+            "bookingId": "B003",
+            "guestId": "G003",
+            "guestName": "amana",
+            "guestEmail": "chal@gmail.com",
+            "guestPhone": "8574857484",
+            "roomNumber": "301",
+            "checkInDate": "12-01-2026",
+            "checkOutDate": "Not Checked Out",
+            "totalAmount": 0,
+            "status": "confirmed"
+        },
+        {
+            "bookingId": "B004",
+            "guestId": "G004",
+            "guestName": "Maka",
+            "guestEmail": "DHak@gmail.com",
+            "guestPhone": "8574965847",
+            "roomNumber": "501",
+            "checkInDate": "12-01-2026",
+            "checkOutDate": "12-01-2026",
+            "totalAmount": 9854,
+            "status": "checked-out"
+        },
+        {
+            "bookingId": "B005",
+            "guestId": "G005",
+            "guestName": "Hiyyy",
+            "guestEmail": "Meu3@gmoal.com",
+            "guestPhone": "8475848574",
+            "roomNumber": "201",
+            "checkInDate": "12-01-2026",
+            "checkOutDate": "12-01-2026",
+            "totalAmount": 1546,
+            "status": "checked-out"
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "activityLogs": [
+        {
+            "logId": "L001",
+            "timestamp": "2026-01-12 01:47:57",
+            "userRole": "admin",
+            "action": "Clear Logs",
+            "status": "successful"
+        },
+        {
+            "logId": "L002",
+            "timestamp": "2026-01-12 01:49:19",
+            "userRole": "admin",
+            "action": "Add Booking B003",
+            "status": "successful"
+        },
+        {
+            "logId": "L003",
+            "timestamp": "2026-01-12 01:55:14",
+            "userRole": "admin",
+            "action": "Update Room 201 Price",
+            "status": "successful"
+        },
+        {
+            "logId": "L004",
+            "timestamp": "2026-01-12 01:55:25",
+            "userRole": "admin",
+            "action": "Checkout Failed",
+            "status": "failed"
+        },
+        {
+            "logId": "L005",
+            "timestamp": "2026-01-12 01:55:39",
+            "userRole": "admin",
+            "action": "Checkout B002",
+            "status": "successful"
+        },
+        {
+            "logId": "L006",
+            "timestamp": "2026-01-12 01:56:46",
+            "userRole": "admin",
+            "action": "Add Room 501",
+            "status": "successful"
+        },
+        {
+            "logId": "L007",
+            "timestamp": "2026-01-12 01:56:53",
+            "userRole": "admin",
+            "action": "Add Room 501",
+            "status": "failed"
+        },
+        {
+            "logId": "L008",
+            "timestamp": "2026-01-12 01:57:04",
+            "userRole": "admin",
+            "action": "Update Booking B005",
+            "status": "failed"
+        },
+        {
+            "logId": "L009",
+            "timestamp": "2026-01-12 01:57:43",
+            "userRole": "admin",
+            "action": "Update Booking B002 Status",
+            "status": "successful"
+        },
+        {
+            "logId": "L010",
+            "timestamp": "2026-01-12 02:02:06",
+            "userRole": "staff",
+            "action": "Update Booking B001 CheckOutDate",
+            "status": "successful"
+        },
+        {
+            "logId": "L011",
+            "timestamp": "2026-01-12 02:13:26",
+            "userRole": "admin",
+            "action": "Update Room 201 Price",
+            "status": "successful"
+        },
+        {
+            "logId": "L012",
+            "timestamp": "2026-01-12 02:13:44",
+            "userRole": "admin",
+            "action": "Delete Room 301",
+            "status": "failed"
+        },
+        {
+            "logId": "L013",
+            "timestamp": "2026-01-12 02:13:56",
+            "userRole": "admin",
+            "action": "Delete Room 501",
+            "status": "successful"
+        },
+        {
+            "logId": "L014",
+            "timestamp": "2026-01-12 02:17:52",
+            "userRole": "admin",
+            "action": "Add Room 501",
+            "status": "successful"
+        },
+        {
+            "logId": "L015",
+            "timestamp": "2026-01-12 02:19:16",
+            "userRole": "admin",
+            "action": "Add Staff S005",
+            "status": "successful"
+        },
+        {
+            "logId": "L016",
+            "timestamp": "2026-01-12 02:19:36",
+            "userRole": "admin",
+            "action": "Cancel Booking B002",
+            "status": "successful"
+        },
+        {
+            "logId": "L017",
+            "timestamp": "2026-01-12 02:20:28",
+            "userRole": "admin",
+            "action": "Add Booking B004",
+            "status": "successful"
+        },
+        {
+            "logId": "L018",
+            "timestamp": "2026-01-12 02:20:51",
+            "userRole": "admin",
+            "action": "Checkout B004",
+            "status": "successful"
+        },
+        {
+            "logId": "L019",
+            "timestamp": "2026-01-12 02:23:51",
+            "userRole": "staff",
+            "action": "Add Booking B005",
+            "status": "successful"
+        },
+        {
+            "logId": "L020",
+            "timestamp": "2026-01-12 02:36:00",
+            "userRole": "staff",
+            "action": "Checkout Failed - Booking not found",
+            "status": "failed"
+        },
+        {
+            "logId": "L021",
+            "timestamp": "2026-01-12 02:36:58",
+            "userRole": "staff",
+            "action": "Checkout B005",
+            "status": "successful"
+        },
+        {
+            "logId": "L022",
+            "timestamp": "2026-01-12 03:09:18",
+            "userRole": "admin",
+            "action": "Smart Search 2",
+            "status": "failed"
+        },
+        {
+            "logId": "L023",
+            "timestamp": "2026-01-12 03:09:37",
+            "userRole": "admin",
+            "action": "Smart Search G002",
+            "status": "successful"
+        },
+        {
+            "logId": "L024",
+            "timestamp": "2026-01-12 03:10:50",
+            "userRole": "admin",
+            "action": "Smart Search B006",
+            "status": "failed"
+        },
+        {
+            "logId": "L025",
+            "timestamp": "2026-01-12 03:12:19",
+            "userRole": "admin",
+            "action": "Smart Search 501",
+            "status": "successful"
+        }
+    ]
+}
