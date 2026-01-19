@@ -151,6 +151,13 @@
             "email": "Meu3@gmoal.com",
             "phone": "8475848574",
             "role": "guest"
+        },
+        {
+            "guestId": "G006",
+            "name": "ammu",
+            "email": "aman@gmaila.co",
+            "phone": "8564857485",
+            "role": "guest"
         }
     ],
     "bookings": [
@@ -200,6 +207,18 @@
             "checkInDate": "12-01-2026",
             "checkOutDate": "12-01-2026",
             "totalAmount": 1546,
+            "status": "checked-out"
+        },
+        {
+            "bookingId": "B006",
+            "guestId": "G006",
+            "guestName": "ammu",
+            "guestEmail": "aman@gmaila.co",
+            "guestPhone": "8564857485",
+            "roomNumber": "401",
+            "checkInDate": "12-01-2026",
+            "checkOutDate": "12-01-2026",
+            "totalAmount": 6000,
             "status": "checked-out"
         }
     ]

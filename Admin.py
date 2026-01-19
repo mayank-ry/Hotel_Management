@@ -41,7 +41,7 @@ def update_room(hotels):
         if room["roomNumber"] == room_no:
             print("1. Update Room Type")
             print("2. Update Price Per Night")
-            print("3. Update Status")
+            print("3. Update Status")   
             choice = input("Enter choice: ")
 
             if choice == "1":
